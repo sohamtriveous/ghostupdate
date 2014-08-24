@@ -19,7 +19,7 @@ ssh root@a.b.c.d
 wget https://raw.githubusercontent.com/triveous/ghostupdate/master/ghostupdate.py
 ```
 
-####Step 3: run this
+####Step 3: run this file
 ```bash
 python ghostupdate.py
 ```
@@ -34,5 +34,5 @@ Successful, starting ghost
 Great, ghost started, you are good to go!
 ```
 
-###Overall source
+###Credits
 The digital ocean blog post on ghost: https://www.digitalocean.com/community/tutorials/how-to-configure-and-maintain-ghost-from-the-command-line
