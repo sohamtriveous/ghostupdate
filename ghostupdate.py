@@ -4,6 +4,10 @@ import commands
 import sys
 import os
 
+'''
+24-08-2014
+'''
+
 def exec_cmd(cmd):
     '''
     execute the given command
