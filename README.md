@@ -1,7 +1,7 @@
 ghostupdate
 ===========
 
-A python utility to update ghost on your digital ocean droplet. (Should work on a typical ghost setup on another VPS but this has not been tested on any other setup)
+A python utility to update ghost on your digital ocean droplet. (Should work on a typical ghost setup on any other VPS but that has not been tested)
 
 ###Prerequisites
 - preinstalled ghost setup on a digital ocean droplet
