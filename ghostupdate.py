@@ -3,6 +3,8 @@ __author__ = 'sohammondal'
 import commands
 import sys
 import os
+import urllib
+import re
 
 '''
 24-08-2014
@@ -29,6 +31,10 @@ def update_ghost():
     print 'Stopping ghost'
     exec_cmd('service ghost stop')
     os.chdir('/var/www/')
+    try:
+        os.remove('ghost-latest.zip')
+    except OSError:
+        pass
     print 'Downloading the latest ghost'
     exec_cmd('wget '+ ghost_url)
     print 'Download complete, unzipping'
@@ -43,6 +49,6 @@ def update_ghost():
     return
 
 #this is the url for the latest ghost
-ghost_url = 'http://ghost.org/zip/ghost-latest.zip'
+ghost_url = 'https://ghost.org/zip/ghost-0.5.0.zip'
 
 update_ghost()
