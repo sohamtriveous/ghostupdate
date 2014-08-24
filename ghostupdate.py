@@ -41,4 +41,4 @@ def update_ghost():
 #this is the url for the latest ghost
 ghost_url = 'http://ghost.org/zip/ghost-latest.zip'
 
-update_ghost(sys.argv)
+update_ghost()
